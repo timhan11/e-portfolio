@@ -2,35 +2,101 @@ import React from 'react'
 import {FaHtml5, FaCss3Alt, FaReact, FaPython} from "react-icons/fa";;
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
-import { DiNpm } from "react-icons/di";
+import { DiFirebase, DiNpm } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
+import { IoLogoFirebase } from "react-icons/io5";
 const Skills = () => {
   return (
-    <div id='skills' className=" w-full text-blue-800 bg-white h-auto py-20 opacity-80 mx-auto">
+<section className="m-4 md:m-8 dark:bg-gray-800 dark:text-gray-100 opacity-90">
+	<div className="container mx-auto p-4 my-6 space-y-2 text-center">
+		<h2 className="text-5xl font-bold">My Technology Stack</h2>
+	
+	</div>
+	<div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
+		<div className="flex flex-col items-center p-4">
+<FaHtml5 className="w-8 h-8 dark:text-violet-400 hover:scale-x-110" />
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">HTML</h3>
+			
+		</div>
+
+    <div className="flex flex-col items-center p-4">
+<FaCss3Alt className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">CSS</h3>
+			
+		</div>
 
 
-
-    <div className=" text-center  ">
-
-        <h1 className=" md:text-4xl sm:text-2xl text-4xl mb-4"> My Technology Stack </h1>
-
-        <h1 className="W-1/4 mx-auto mb-10 shadow-4xl"> </h1>
-    </div>
-    <div className="flex justify-between pt-6  w-full ">
-            <FaHtml5 className="cursor-pointer mr-2 ml-16 hover:scale-110  " size={40} />
-            <FaCss3Alt className="cursor-pointer mr-2 hover:scale-110 " size={40} />
-            <IoLogoJavascript className="cursor-pointer mr-2 hover:scale-110" size={40} />
-            <FaReact className="cursor-pointer mr-2 hover:scale-110" size={40} />
-            <SiTailwindcss className="cursor-pointer mr-2 hover:scale-110" size={40} />
-            <FaPython className="cursor-pointer mr-2 hover:scale-110" size={40} />
-            <DiNpm className="cursor-pointer mr-2 hover:scale-110" size={40} />
-            <AiFillGithub className="cursor-pointer mr-14 hover:scale-110" size={40} />
-          </div>
+    <div className="flex flex-col items-center p-4">
+<IoLogoJavascript className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">JavaScript</h3>
+			
+		</div>
 
 
+    <div className="flex flex-col items-center p-4">
+<FaReact className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">React</h3>
+			
+		</div>
 
 
-</div>
+    <div className="flex flex-col items-center p-4">
+<FaPython className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">Python</h3>
+			
+		</div>
+
+
+    <div className="flex flex-col items-center p-4">
+<IoLogoFirebase className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">Firebase</h3>
+			
+		</div>
+
+
+    <div className="flex flex-col items-center p-4">
+<SiTailwindcss className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">Tailwind CSS</h3>
+			
+		</div>
+
+    <div className="flex flex-col items-center p-4">
+<AiFillGithub className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">Github</h3>
+		
+		</div>
+
+    <div className="flex flex-col items-center p-4">
+<DiNpm className="w-8 h-8 dark:text-violet-400 hover:scale-x-110"/>
+				
+			
+			<h3 className="my-3 text-3xl font-semibold hover:scale-x-110">NPM</h3>
+		
+		</div>
+
+
+   
+		
+
+		
+	</div>
+</section>
   )
 }
 
