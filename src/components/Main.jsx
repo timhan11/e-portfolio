@@ -34,7 +34,7 @@ const Main = () => {
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
            <a target="blank" href="https://github.com/timhan11"> <AiFillGithub className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /></a>
            <a target="blank" href="https://www.linkedin.com/in/tim-hansen-b22751266/"> <AiFillLinkedin className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /> </a>
-           <a target="blank" href={resumen}> <AiOutlineFilePdf className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /></a>
+           <a target="blank" href={resume}> <AiOutlineFilePdf className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /></a>
           </div>
         </div>
       </div>
