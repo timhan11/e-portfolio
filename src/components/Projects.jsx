@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import background from "../assets/background.jpg";
+import weather from "../assets/WA-ScreenShot.png";
+import chataway from "../assets/CA-ScreenShot.png"
 const Projects = () => {
 //w-full h-screen object-cover object-left scale-x-[1]
 //original max-w-[1040px] m-auto md:pl-20 p-4 py-16
@@ -9,10 +10,10 @@ const Projects = () => {
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16    bg-blue opacity-90">
       <h1 className="text-4xl opacity-90 font-bold text-center text-white mb-8">Projects</h1>
       <div className="grid sm:grid-cols-2 gap-12">
-       <ProjectItem img={background} title="Weather App"/>
-       <ProjectItem img={background} title="Weathere App"/>
-       <ProjectItem img={background} title="Weathere App"/>
-       <ProjectItem img={background} title="Weathere App"/>
+       <ProjectItem img={weather} tools="HTMl, CSS, JavaScript, React, Vite, Axios" title="Weather App"/>
+       <ProjectItem img={chataway} tools="HTMl, Tailwind CSS, JavaScript, React, Firebase, Vite"  title="Weathere App"/>
+       <ProjectItem img={chataway} title="Weathere App" />
+       
       </div>
     </div>
   );

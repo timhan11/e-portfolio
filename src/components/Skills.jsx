@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaHtml5, FaCss3Alt, FaReact, FaPython} from "react-icons/fa";;
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiFirebase } from "react-icons/si";
 import { DiNpm } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
 const Skills = () => {
@@ -22,9 +22,11 @@ const Skills = () => {
             <IoLogoJavascript className="cursor-pointer mr-2 hover:scale-110" size={40} />
             <FaReact className="cursor-pointer mr-2 hover:scale-110" size={40} />
             <SiTailwindcss className="cursor-pointer mr-2 hover:scale-110" size={40} />
+            <SiFirebase className="cursor-pointer mr-2 hover:scale-110" size={40} />
             <FaPython className="cursor-pointer mr-2 hover:scale-110" size={40} />
             <DiNpm className="cursor-pointer mr-2 hover:scale-110" size={40} />
             <AiFillGithub className="cursor-pointer mr-14 hover:scale-110" size={40} />
+
           </div>
 
 
