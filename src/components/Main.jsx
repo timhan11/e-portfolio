@@ -2,6 +2,7 @@ import React from "react";
 import background from "../assets/background.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { AiFillGithub, AiFillLinkedin, AiOutlineFilePdf } from "react-icons/ai";
+import resume from "../assets/TimHansenResume.png"
 const Main = () => {
   return (
     <div id="main">
@@ -31,9 +32,9 @@ const Main = () => {
             <div></div>
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <AiFillGithub className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} />
-            <AiFillLinkedin className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} />
-            <AiOutlineFilePdf className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} />
+           <a target="blank" href="https://github.com/timhan11"> <AiFillGithub className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /></a>
+           <a target="blank" href="https://www.linkedin.com/in/tim-hansen-b22751266/"> <AiFillLinkedin className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /> </a>
+           <a target="blank" href={resume}> <AiOutlineFilePdf className="cursor-pointer bg-white rounded-xl hover:scale-110" size={40} /></a>
           </div>
         </div>
       </div>

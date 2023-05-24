@@ -1,8 +1,11 @@
 import React from 'react'
 import {FaHtml5, FaCss3Alt, FaReact, FaPython} from "react-icons/fa";;
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTailwindcss } from "react-icons/si";
+
 import { DiFirebase, DiNpm } from "react-icons/di";
+import { SiTailwindcss, SiFirebase } from "react-icons/si";
+
+
 import { AiFillGithub } from "react-icons/ai";
 import { IoLogoFirebase } from "react-icons/io5";
 const Skills = () => {
